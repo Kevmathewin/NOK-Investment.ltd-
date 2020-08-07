@@ -30,7 +30,9 @@
             "styles": [
               "src/styles.scss"
             ],
-            "scripts": []
+            "scripts": [
+              "src/assets/js/main.js"
+            ]
           },
           "configurations": {
             "production": {
@@ -123,6 +125,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "nokinvestment"
+    }
+  },
+  "defaultProject": "nokinvestment",
+  "cli": {
+    "analytics": "b4ab79b6-4cbd-4ada-a54a-0632b92e0b99"
+  }
 }
